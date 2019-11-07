@@ -1,4 +1,4 @@
-#!/shrini/nithya/marriage
+#!/Arun/Lavnaya/marriage
 
 # This is just a code. Dot try running it.
 #You cannot import god and blessings :-)
@@ -10,16 +10,16 @@
     :aim:: Get married
     :purpose:: Invite all of our friends
 
-.. module authors:: Shrinivasan.T & Nithya.D
-.. target date:: 31.10.2011
+.. module authors:: Arun.R & Lavnaya.G
+.. target date:: 02.July.2019
 
 """
 
 from god import blessings
 from friends import wishes, greetings, gifts, kindals, joyful, help, etc
-from family.parents import Thanigachalam_Karpagam, Duraisamy_Indirany as appa_amma
-from family.brothers import Arulalan_Suresh as rubber_thoppai
-from family.sister import Nalini
+from family.parents import Rajendiran_Jayalakshmi, Ganesan_Manimegalai as appa_amma
+from family.brothers import Dinesh_Saranya as Software_Engineer
+from family.sister import Gopi_Sharmila
 from family.relations import *
 
 class Love(love):
@@ -47,9 +47,9 @@ class Marriage(Love, friends, parents, siblings, relativies):
 
     def __init__(self):
         self.time = " 6.00 am to 7.00 am "
-        self.date = " 31-10-2011 "
-        self.place = " Mohana Mahal, Little Kanchipuram "
-        self.place += " Near by Tollgate "
+        self.date = " 02-07-2018 "
+        self.place = " Narasima Swamy temple , Sholinghur "
+        self.place += " Near by Arakonnam railway station "
         Love.do_marriage(arranged_by = parents, with_supports = siblings,
                           manage_by = relativies, with_love_of = friends)
 
@@ -64,7 +64,7 @@ class Reception(Love, friends):
         # Celebrate happiness with you
         you = friends.best
 
-        print " Reception Date ", " 30-10-2011 "
+        print " Reception Date ", " 01-07-2019 "
         print " Party Time ", " 6.30 pm to 9.30 pm "
 
         if you in Marriage:
@@ -93,7 +93,7 @@ def welcome(you):
     print " We thank ", love.angel, " to tighed us together in this brith too "
 
     print " Once again welcome you to ", Marriage(2 July 2019)
-    print " and ", Reception(Arun Rajendiran), " too..."
+    print " and ", Reception(you), " too..."
 
     if you:
         print ":) :-) :P :D :} :-] :D :P :-) :) " * 10000000000000000000000000
@@ -109,4 +109,4 @@ if __name__ == 'main':
     from myself import shyness, smile
     from future import children
     
-    welcome(invitation.cover.Arun Rajendiran)
+    welcome(invitation.cover.your_name)
