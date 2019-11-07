@@ -83,7 +83,7 @@ def welcome(you):
 
     print " With Blessings of ", Love.love.angel
 
-    print " We 'Shrinivasan Nithya' invite ", you, """ to our marriage and
+    print " We 'Lavanya Arun' invite ", you, """ to our marriage and
                         reception with immense pleasure.
                       Your presence is most important to us.
             We are waiting for the moment to join with our life partner
@@ -92,8 +92,8 @@ def welcome(you):
 
     print " We thank ", love.angel, " to tighed us together in this brith too "
 
-    print " Once again welcome you to ", Marriage()
-    print " and ", Reception(you), " too..."
+    print " Once again welcome you to ", Marriage(2 July 2019)
+    print " and ", Reception(Arun Rajendiran), " too..."
 
     if you:
         print ":) :-) :P :D :} :-] :D :P :-) :) " * 10000000000000000000000000
@@ -109,4 +109,4 @@ if __name__ == 'main':
     from myself import shyness, smile
     from future import children
     
-    welcome(invitation.cover.your_name)
+    welcome(invitation.cover.Arun Rajendiran)
